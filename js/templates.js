@@ -8,7 +8,7 @@ export const productListTmpl = (product) =>
         <p><i>${product.price} kr</i></p>
         <article class="info">
     <button><a href="page.html?id=${product.id}">Se produkt</a></button> 
-    <button id=“${product.id}”>Hurtigvisning</button>
+    <button class="buttonQuick" id=“${product.id}”>Hurtigvisning</button>
     </article>
     </div>
     `;
