@@ -5,7 +5,9 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
-
+body {
+  background-color: rgb(243, 196, 175);
+}
 h1 {
   padding: 60px;
   font-size: 48px;
@@ -14,4 +16,55 @@ h1 {
   font-weight: 300;
 }
 .post-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 90px;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.container b {
+  font-size: 28px;
+  color: rgb(176, 105, 73);
+}
+.container img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+i {
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 62px;
+  margin-bottom: 90px;
+}
+
+.info button {
+  background-color: rgb(176, 105, 73);
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 8px;
+  color: #f9e5e5;
+  font-size: 16px;
+}
+.info button a {
+  color: #f9e5e5;
+  text-decoration: none;
+}
+
+.info button a:hover {
+  color: rgb(198, 188, 181);
 }
