@@ -28,7 +28,7 @@ export function productsQuickView() {
 
     btnQuick.forEach((btn) => {
       btn.addEventListener("click", (e) => {
-        let getBtnId = e.target.getAttribute(id);
+        let getBtnId = e.target.id;
         console.log(getBtnId);
         let findProduct = products.find((product) => product.id == getBtnId);
         console.log(findProduct);
